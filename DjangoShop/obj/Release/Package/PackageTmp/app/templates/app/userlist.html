@@ -1,0 +1,70 @@
+﻿{% extends "app/mainlayout.html" %}
+
+{% block content %}
+{% load pagination_tags %}
+<!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">باش بەت</a></li>
+                <li class="breadcrumb-item">مال باشقۇرۇش</li>
+                <li class="breadcrumb-item active">تۈرلەر تىزىملىكى</li>
+
+                <!-- Breadcrumb Menu-->
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="container-fluid">
+
+                <div class="animated fadeIn">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <i class="fa fa-align-justify"></i> يۇرتلار تىزىملىكى
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-xs-center"><i class="icon-people"></i></th>
+                                                <th class="text-xs-center">يانفۇن نۇمىرى</th>
+                                                <th class="text-xs-center">قۇشۇلغان ۋاقىت</th>
+                                                <th class="text-xs-center">رايۇنى</th>
+                                                <th class="text-xs-center">ئادرىسى</th>
+                                                <th class="text-xs-center">سېتىۋالغان سانى</th>
+                                                <th class="text-xs-center">جەمى سوممىسى</th>
+                                                <th class="text-xs-center">باشقۇرۇش</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% autopaginate users 8 %}
+                                            {% for i in users %}
+                                            <tr style="line-height:42px">
+                                                <td style="width:48px;"><img src="/static/shop/img/user.png" style="width:42px; height:42px"/></td>
+                                                <td>{{ i.1 }}</td>
+                                                <td>{{ i.3 }}</td>
+                                                <td>{{ i.4 }}</td>
+                                                <td>{{ i.2 }}</td>
+                                                <td>0</td>
+                                                <td>0</td>
+                                                <td><button type="button" id="{{i.0}}" class="btn btn-sm btn-success">تالونلىرى</button></td>
+                                            </tr>
+                                            {% endfor %}  
+                                        </tbody>
+                                    </table>
+                                    {% paginate %}
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-->
+                    </div>
+                </div>
+
+            </div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/shop/js/views/placelist.js"></script>
+{% endblock %}

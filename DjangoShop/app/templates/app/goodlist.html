@@ -1,0 +1,123 @@
+﻿{% extends "app/mainlayout.html" %}
+
+{% block content %}
+{% load pagination_tags %}
+<!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">باش بەت</a></li>
+                <li class="breadcrumb-item">مال باشقۇرۇش</li>
+                <li class="breadcrumb-item active">ماللار تىزىملىكى</li>
+
+                <!-- Breadcrumb Menu-->
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
+                        <a class="btn" href="#" id="addgood"><i class="icon-plus"></i> &nbsp;مال قۇشۇش</a>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="container-fluid">
+
+                <div class="animated fadeIn">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <i class="fa fa-align-justify"></i> بارلىق ماللار تىزىملىكى
+                                    <div class="col-md-2 float-left">
+                                        <select id="type-selector" name="select" class="form-control input-sm">
+                                            {% if typeid == -1 %}
+                                                <option value="-1" selected>ھەممە تۈرلەر</option>
+                                            {% else %}
+                                                <option value="-1">ھەممە تۈرلەر</option>
+                                            {% endif %}
+                                            {% for i in types %}
+                                                {% if i.id == typeid %}
+                                                    <option value="{{i.id}}" selected>{{i.typename}}</option>
+                                                {% else %}
+                                                    <option value="{{i.id}}">{{i.typename}}</option>
+                                                {% endif %}
+                                            {% endfor %}
+                                        </select>
+                                    </div>
+                                    <div class="col-md-3 float-left">
+                                        <div class="input-group">
+                                            <input id="stext" value="{{key}}" name="input1-group2" class="form-control input-sm" placeholder="مال ئىسمى بۇيىچە ئىزدەش" type="text">
+                                            <span class="input-group-btn input-sm">
+                                                <button type="button" id="search" class="btn btn-primary" style="margin-top:0px">ئىزدەش</button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-xs-center"><i class="icon-people"></i></th>
+                                                <th class="text-xs-center">مال نامى</th>
+                                                <th>قۇشۇلغان ۋاقتى</th>
+                                                <th>تۈرى</th>
+                                                <th>باھاسى</th>
+                                                <th>سانى</th>
+                                                <th>سېتىلىشى</th>
+                                                <th>ئورنى</th>
+                                                <th>ھالىتى</th>
+                                                <th>باشقۇرۇش</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% autopaginate goods 8 %}
+                                            {% for i in goods %}
+                                            <tr style="line-height:42px">
+                                                <td style="width:48px;"><img src="media/{{i.4}}" style="width:42px; height:42px"/></td>
+                                                <td>{{ i.1 }}</td>
+                                                <td>{{ i.5 }}</td>
+                                                <td><img src="media/{{i.7}}" style="width:42px; height:42px"/>&nbsp;&nbsp;{{ i.6 }}</td>
+                                                <td>{{ i.2 }} يۈەن</td>
+                                                <td>{{ i.3 }}</td>
+                                                <td>-1</td>
+                                                <td>
+                                                    {% if i.8 == 1 %}
+                                                        <span class="badge badge-success">باش بەتتە</span>
+                                                    {% elif i.8 == 2 %}
+                                                        <span class="badge badge-info">ئەڭ يېڭى مال تىزىملىكى</span>
+                                                    {% else %}
+                                                        <span class="">ئادەتتىكى</span>
+                                                    {% endif %}
+                                                    {% if i.3 < 5 and i.3 > 0 %}
+                                                        <span class="badge badge-warning">ئاز قالدى</span>
+                                                    {% elif i.3 == 0 %}
+                                                        <span class="badge badge-danger">تۈگىدى</span>
+                                                    {% endif %}
+                                                </td>
+                                                <td>
+                                                    {% if i.9 == 0 %}
+                                                        <span class="badge badge-success">گىرام بۇيىچە</span>
+                                                    {% elif i.9 == 1 %}
+                                                        <span class="badge badge-info">كىلو بۇيىچە</span>
+                                                    {% else %}
+                                                        <span class="">دانە بۇيىچە</span>
+                                                    {% endif %}
+                                                </td>
+                                                <td style="width:180px">
+                                                    <a href="/addgood?method=edit&id={{i.0}}" class="btn btn-sm btn-primary">ئۆزگەرتىش</a>
+                                                    <button type="button" id="{{i.0}}" class="btn btn-sm btn-danger remove">ئۈچۈرۈش</button>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}  
+                                        </tbody>
+                                    </table>
+                                    {% paginate %}
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-->
+                    </div>
+                </div>
+
+            </div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/shop/js/views/goodlist.js"></script>
+{% endblock %}

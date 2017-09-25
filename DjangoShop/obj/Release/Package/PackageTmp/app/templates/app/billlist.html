@@ -1,0 +1,160 @@
+﻿{% extends "app/mainlayout.html" %}
+
+{% block content %}
+{% load pagination_tags %}
+<!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">ئەلچىل سېستىمىسى</li>
+                <li class="breadcrumb-item active">سودا باشقۇرۇش</li>
+                <li class="breadcrumb-item active">زاكاسلار تىزىملىكى</li>
+
+                <!-- Breadcrumb Menu-->
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="container-fluid">
+
+                <div class="animated fadeIn">
+                    <div class="row">
+                        <div class="col-sm-3 col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    زاكاس تالونى
+                                    <span class="badge badge-success float-left">يەتكۈزۈلدى</span>
+                                </div>
+                                <div class="card-body">
+                                    <p><span style="display:inline-block; width:110px">زاقاس قىلغۇچى:</span><span>18762405722</span></p>
+                                    <p><span style="display:inline-block; width:110px">يەتكۈزگۈچى:</span><span>ئېزىزجان (13899212131)</span></p>
+                                    <p><span style="display:inline-block; width:110px">ئۇمۇمى سومما:</span><span>37 يۈەن</span></p>
+                                    <p><span style="display:inline-block; width:110px">ۋاقىت:</span><span>2017-02-18 12:12:28</span></p>
+                                    <button type="button" class="btn btn-success btn-sm">تەپسىناتىنى كۆرۈش</button>
+                                    <button type="button" class="btn btn-success btn-sm">بېسىپ چىقىرىش</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    زاكاس تالونى
+                                    <span class="badge badge-success float-left">يەتكۈزۈلدى</span>
+                                </div>
+                                <div class="card-body">
+                                    <p><span style="display:inline-block; width:110px">زاقاس قىلغۇچى:</span><span>18762405722</span></p>
+                                    <p><span style="display:inline-block; width:110px">يەتكۈزگۈچى:</span><span>ئېزىزجان (13899212131)</span></p>
+                                    <p><span style="display:inline-block; width:110px">ئۇمۇمى سومما:</span><span>37 يۈەن</span></p>
+                                    <p><span style="display:inline-block; width:110px">ۋاقىت:</span><span>2017-02-18 12:12:28</span></p>
+                                    <button type="button" class="btn btn-success btn-sm">تەپسىناتىنى كۆرۈش</button>
+                                    <button type="button" class="btn btn-success btn-sm">بېسىپ چىقىرىش</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    زاكاس تالونى
+                                    <span class="badge badge-success float-left">يەتكۈزۈلدى</span>
+                                </div>
+                                <div class="card-body">
+                                    <p><span style="display:inline-block; width:110px">زاقاس قىلغۇچى:</span><span>18762405722</span></p>
+                                    <p><span style="display:inline-block; width:110px">يەتكۈزگۈچى:</span><span>ئېزىزجان (13899212131)</span></p>
+                                    <p><span style="display:inline-block; width:110px">ئۇمۇمى سومما:</span><span>37 يۈەن</span></p>
+                                    <p><span style="display:inline-block; width:110px">ۋاقىت:</span><span>2017-02-18 12:12:28</span></p>
+                                    <button type="button" class="btn btn-success btn-sm">تەپسىناتىنى كۆرۈش</button>
+                                    <button type="button" class="btn btn-success btn-sm">بېسىپ چىقىرىش</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    زاكاس تالونى
+                                    <span class="badge badge-success float-left">يەتكۈزۈلدى</span>
+                                </div>
+                                <div class="card-body">
+                                    <p><span style="display:inline-block; width:110px">زاقاس قىلغۇچى:</span><span>18762405722</span></p>
+                                    <p><span style="display:inline-block; width:110px">يەتكۈزگۈچى:</span><span>ئېزىزجان (13899212131)</span></p>
+                                    <p><span style="display:inline-block; width:110px">ئۇمۇمى سومما:</span><span>37 يۈەن</span></p>
+                                    <p><span style="display:inline-block; width:110px">ۋاقىت:</span><span>2017-02-18 12:12:28</span></p>
+                                    <button type="button" class="btn btn-success btn-sm">تەپسىناتىنى كۆرۈش</button>
+                                    <button type="button" class="btn btn-success btn-sm">بېسىپ چىقىرىش</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    زاكاس تالونى
+                                    <span class="badge badge-success float-left">يەتكۈزۈلدى</span>
+                                </div>
+                                <div class="card-body">
+                                    <p><span style="display:inline-block; width:110px">زاقاس قىلغۇچى:</span><span>18762405722</span></p>
+                                    <p><span style="display:inline-block; width:110px">يەتكۈزگۈچى:</span><span>ئېزىزجان (13899212131)</span></p>
+                                    <p><span style="display:inline-block; width:110px">ئۇمۇمى سومما:</span><span>37 يۈەن</span></p>
+                                    <p><span style="display:inline-block; width:110px">ۋاقىت:</span><span>2017-02-18 12:12:28</span></p>
+                                    <button type="button" class="btn btn-success btn-sm">تەپسىناتىنى كۆرۈش</button>
+                                    <button type="button" class="btn btn-success btn-sm">بېسىپ چىقىرىش</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    زاكاس تالونى
+                                    <span class="badge badge-success float-left">يەتكۈزۈلدى</span>
+                                </div>
+                                <div class="card-body">
+                                    <p><span style="display:inline-block; width:110px">زاقاس قىلغۇچى:</span><span>18762405722</span></p>
+                                    <p><span style="display:inline-block; width:110px">يەتكۈزگۈچى:</span><span>ئېزىزجان (13899212131)</span></p>
+                                    <p><span style="display:inline-block; width:110px">ئۇمۇمى سومما:</span><span>37 يۈەن</span></p>
+                                    <p><span style="display:inline-block; width:110px">ۋاقىت:</span><span>2017-02-18 12:12:28</span></p>
+                                    <button type="button" class="btn btn-success btn-sm">تەپسىناتىنى كۆرۈش</button>
+                                    <button type="button" class="btn btn-success btn-sm">بېسىپ چىقىرىش</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    زاكاس تالونى
+                                    <span class="badge badge-success float-left">يەتكۈزۈلدى</span>
+                                </div>
+                                <div class="card-body">
+                                    <p><span style="display:inline-block; width:110px">زاقاس قىلغۇچى:</span><span>18762405722</span></p>
+                                    <p><span style="display:inline-block; width:110px">يەتكۈزگۈچى:</span><span>ئېزىزجان (13899212131)</span></p>
+                                    <p><span style="display:inline-block; width:110px">ئۇمۇمى سومما:</span><span>37 يۈەن</span></p>
+                                    <p><span style="display:inline-block; width:110px">ۋاقىت:</span><span>2017-02-18 12:12:28</span></p>
+                                    <button type="button" class="btn btn-success btn-sm">تەپسىناتىنى كۆرۈش</button>
+                                    <button type="button" class="btn btn-success btn-sm">بېسىپ چىقىرىش</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    زاكاس تالونى
+                                    <span class="badge badge-success float-left">يەتكۈزۈلدى</span>
+                                </div>
+                                <div class="card-body">
+                                    <p><span style="display:inline-block; width:110px">زاقاس قىلغۇچى:</span><span>18762405722</span></p>
+                                    <p><span style="display:inline-block; width:110px">يەتكۈزگۈچى:</span><span>ئېزىزجان (13899212131)</span></p>
+                                    <p><span style="display:inline-block; width:110px">ئۇمۇمى سومما:</span><span>37 يۈەن</span></p>
+                                    <p><span style="display:inline-block; width:110px">ۋاقىت:</span><span>2017-02-18 12:12:28</span></p>
+                                    <button type="button" class="btn btn-success btn-sm">تەپسىناتىنى كۆرۈش</button>
+                                    <button type="button" class="btn btn-success btn-sm">بېسىپ چىقىرىش</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--/.col-->
+                    </div>
+                </div>
+
+            </div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/shop/js/views/emplist.js"></script>
+{% endblock %}

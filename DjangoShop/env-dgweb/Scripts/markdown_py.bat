@@ -1,0 +1,1 @@
+@"C:\Users\bodekjan\documents\visual studio 2017\Projects\DjangoShop\DjangoShop\env-dgweb\Scripts\python.exe" "C:\Users\bodekjan\documents\visual studio 2017\Projects\DjangoShop\DjangoShop\env-dgweb\Scripts\markdown_py" %*

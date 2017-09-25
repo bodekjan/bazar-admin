@@ -1,0 +1,206 @@
+﻿<!--
+ * CoreUI - Open Source Bootstrap Admin Template
+ * @version v1.0.0-alpha.6
+ * @link http://coreui.io
+ * Copyright (c) 2017 creativeLabs Łukasz Holeczek
+ * @license MIT
+ -->
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CoreUI - Open Source Bootstrap Admin Template">
+    <meta name="author" content="Łukasz Holeczek">
+    <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,AngularJS,Angular,Angular2,Angular 2,Angular4,Angular 4,jQuery,CSS,HTML,RWD,Dashboard,React,React.js,Vue,Vue.js">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <title>ئەلچىل كونترول سۇپىسى</title>
+
+    <!-- Icons -->
+    <link href="/static/shop/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/shop/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Main styles for this application -->
+    <link href="/static/shop/css/style.css" rel="stylesheet">
+</head>
+
+<!-- BODY options, add following classes to body to change options
+
+// Header options
+1. '.header-fixed'					- Fixed Header
+
+// Sidebar options
+1. '.sidebar-fixed'					- Fixed Sidebar
+2. '.sidebar-hidden'				- Hidden Sidebar
+3. '.sidebar-off-canvas'		- Off Canvas Sidebar
+4. '.sidebar-minimized'			- Minimized Sidebar (Only icons)
+5. '.sidebar-compact'			  - Compact Sidebar
+
+// Aside options
+1. '.aside-menu-fixed'			- Fixed Aside Menu
+2. '.aside-menu-hidden'			- Hidden Aside Menu
+3. '.aside-menu-off-canvas'	- Off Canvas Aside Menu
+
+// Breadcrumb options
+1. '.breadcrumb-fixed'			- Fixed Breadcrumb
+
+// Footer options
+1. '.footer-fixed'					- Fixed footer
+
+-->
+
+<body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
+    <header class="app-header navbar">
+        <a class="navbar-brand" href="#"></a>
+        
+        <ul class="nav navbar-nav float-left" style="position:absolute; left:80px">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <img src="/static/shop/img/admin.png" class="img-avatar" alt="admin@bootstrapmaster.com">
+                    <span class="d-md-down-none">باشقۇرغۇچى</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item float-left" href="/logout"><i class="fa fa-lock"></i> چىقىپ كېتىش</a>
+                </div>
+            </li>
+        </ul>
+        <button class="navbar-toggler sidebar-minimizer" type="button">☰</button>
+    </header>
+
+    <div class="app-body">
+        <div class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/main"><i class="icon-home "></i> باش بەت </a>
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i> سودا باشقۇرۇش </a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/urgentbill"><i class="icon-info"></i> <span class="badge badge-danger">دېققەت</span>ھازىرقى زاكاسلار</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/billlist"><i class="icon-calendar"></i> بارلىق زاكاس ئارخىبى</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-present " ></i> مال باشقۇرۇش </a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/goodalert.html"><i class="icon-bell"></i> تۈگىگەن ماللار</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/typelist"><i class="icon-grid "></i> تۈرلەر تىزىملىكى</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/servicelist"><i class="icon-puzzle"></i>قۇشۇمچە ھەقلەر</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/goodlist"><i class="icon-handbag "></i> ماللار تىزىمللىكى</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-user "></i> ئەزا باشقۇرۇش </a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/userlist"><i class="icon-people "></i> ئەزالار تىزىملىكى</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/placelist"><i class="icon-globe "></i> رايۇنلار تىزىملىكى</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-wallet "></i> ئىختىساد باشقۇرۇش </a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="components/buttons.html"><i class="icon-credit-card "></i>ئۈندىدار ھىساباتى</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="components/cards.html"><i class="icon-credit-card "></i>چىقىمدان ھىساباتى</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-paper-plane "></i> بېكەت باشقۇرۇش </a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/bannerlist"><i class="icon-picture "></i> باش بەت رەسىمى</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="components/cards.html"><i class="icon-social-dropbox "></i> ئەپ ئارخىبى</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="components/cards.html"><i class="icon-cloud-upload "></i> ئەپ يوللاش</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-basket "></i> خادىم باشقۇرۇش </a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/employeelist"><i class="icon-user-follow "></i> خادىملار ئارخىبى</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item nav-dropdown">
+                        <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-settings "></i> سېستىما تەڭشەكلىرى </a>
+                        <ul class="nav-dropdown-items">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/settingpage"><i class="icon-speedometer"></i>كۈزەتكۈچ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/errorlist"><i class="icon-support "></i>مەسىلىلەر تىزىملىكى</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Main content -->
+        <main class="main">
+            {% block content %}{% endblock %}
+            
+            <!-- /.conainer-fluid -->
+        </main>
+
+
+    </div>
+
+    <footer class="app-footer">
+        <span>&nbsp;&nbsp;ئەلچىل مال باشقۇرۇش سېستىمىسى&nbsp;&nbsp;</span>
+        <a href="#">AskarStudio</a> © 2017 CO.LTD.
+        <span class="float-right">Powered by <a href="#">AskarStudio</a>
+        </span>
+    </footer>
+
+    <!-- Bootstrap and necessary plugins -->
+    <script src="/static/shop/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/static/shop/bower_components/popper.js/index.js"></script>
+    <script src="/static/shop/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/static/shop/bower_components/pace/pace.min.js"></script>
+    <script src="/static/shop/bower_components/chart.js/dist/Chart.min.js"></script>
+
+    <!-- GenesisUI main scripts -->
+
+    <script src="/static/shop/js/app.js"></script>
+
+
+
+
+
+    <!-- Plugins and scripts required by this views -->
+
+    <!-- Custom scripts required by this view -->
+    
+    <script src="/static/shop/js/art-dialog.js"></script>
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

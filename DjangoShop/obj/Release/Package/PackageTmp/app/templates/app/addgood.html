@@ -1,0 +1,174 @@
+﻿{% extends "app/mainlayout.html" %}
+
+{% block content %}
+<!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">Home</li>
+                <li class="breadcrumb-item"><a href="#">Admin</a>
+                </li>
+                <li class="breadcrumb-item active">Dashboard</li>
+
+                <!-- Breadcrumb Menu-->
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="javascript :;" onClick="javascript :history.back(-1);"><i class="icon-arrow-right"></i> &nbsp;تىزىملىككە قايتىش</a>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="container-fluid">
+                <div class="animated fadeIn">
+                    {% if status == "error" %}
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="card text-white bg-danger">
+                                <div class="card-header">
+                                    ئۇچۇر كۆزنىكى
+                                </div>
+                                <div class="card-block">
+                                    مال قۇشۇش مەشخۇلاتى مەغلۇپ بولدى، ئۇچۇرلارنى خاتا تولدۇردىڭىزمۇ يوق تەكشۈرۈپ بېقىپ قايتا يوللاڭ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if status == "success" %}
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="card text-white bg-success">
+                                <div class="card-header">
+                                    ئۇچۇر كۆزنىكى
+                                </div>
+                                <div class="card-block">
+                                    مال قۇشۇش مۇۋاپىقىيەتلىك بولدى، ئەمدى ماللار تىزىملىكىدىن سىز قوشقان يېڭى مالنى كۆرەلەيسىز
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if status != "success" %}
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <form action ="/addgood" method='post' enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <div class="card">
+                                <div class="card-header">
+                                    <strong>مال قۇشۇش</strong>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="form-group col-sm-6">
+                                            <div class="row">
+                                                <div class="form-group col-sm-12">
+                                                    <label for="city">مال ئىسمى</label>
+                                                    {{goods.goodname}}
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group col-sm-12">
+                                                    <label for="city">مال تۈرى</label>
+                                                    <select name="goodtype" class="form-control" id="id_goodtype">
+                                                        {% for i in types %}
+                                                            {% if i.0 == model.goodtype.id %}
+                                                                <option value="{{i.0}}" selected = "selected" >{{i.1}}</option>
+                                                            {% else %}
+                                                                <option value="{{i.0}}">{{i.1}}</option>
+                                                            {% endif %}
+                                                        {% endfor %}  
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group col-sm-6">
+                                                    <label for="city">مال باھاسى</label>
+                                                    {{goods.goodprice}}
+                                                </div>
+                                                <div class="form-group col-sm-6">
+                                                    <label for="city">ئىسكىلاتتىكى سانى</label>
+                                                    {{goods.goodcount}}
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group col-sm-6">
+                                                    <label for="city">ئورنى</label>
+                                                    <select name="goodstatus" class="form-control" id="id_goodstatus">
+                                                        {% if model.goodstatus == 1 %}
+                                                        {% elif  model.goodstatus == 2 %}
+                                                            <option value="2" selected="selected">ئەڭ يېڭى مال تىزىملىكى</option>
+                                                            <option value="0" >ئادەتتىكى</option>
+                                                        {% else %}
+                                                            <option value="0" selected="selected">ئادەتتىكى</option>
+                                                            <option value="2" >ئەڭ يېڭى مال تىزىملىكى</option>
+                                                        {% endif %}
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-sm-6">
+                                                    <label for="city">ھالىتى</label>
+                                                    <select name="pricetype" class="form-control" id="id_pricetype">
+                                                        {% if model.pricetype == 0 %}
+                                                            <option value="0" selected="selected">گىراملاپ</option>
+                                                            <option value="1">كىلولاپ</option>
+                                                            <option value="2">دانىلاپ</option>
+                                                        {% elif  model.pricetype == 1 %}
+                                                            <option value="0" >گىراملاپ</option>
+                                                            <option value="1" selected="selected">كىلولاپ</option>
+                                                            <option value="2" >دانىلاپ</option>
+                                                        {% else %}
+                                                            <option value="0">گىراملاپ</option>
+                                                            <option value="1">كىلولاپ</option>
+                                                            <option value="2" selected="selected">دانىلاپ</option>
+                                                        {% endif %}
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group col-sm-12">
+                                                    <label for="city">مال رەسىمى</label>
+                                                    {{goods.goodimg}}
+                                                </div>
+                                            </div>
+                                            {% if status == "edit" %}
+                                            <div class="row">
+                                                <div class="form-group col-sm-12">
+                                                    <input type="hidden" name="goodid" value="{{model.id}}"/>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+                                        </div>
+
+                                        <div class="form-group col-sm-6">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    {% if status == "edit" %}
+                                                        <img src="media/{{model.goodimg}}" id="goodPreview" style="display:block; margin:30px auto; width:360px; height:360px;"/>
+                                                    {% else %}
+                                                        <img src="/static/shop/img/null.jpeg" id="goodPreview" style="display:block; margin:30px auto; width:360px; height:360px;"/>
+                                                    {% endif %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="vat">مال چۈشەندۈرۈلىشى</label>
+                                        {{goods.gooddesc}}
+                                    </div>
+                                    <!--/.row-->
+                                </div>
+                                <div class="card-footer">
+                                    <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> جەزىملەش</button>
+                                    <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> ۋاز كىچىش</button>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                        <!--/.col-->
+                    </div>
+                    {% endif %}
+                </div>
+
+            </div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/shop/js/views/addgoods.js"></script>
+{% endblock %}

@@ -1,0 +1,7 @@
+templatetags
+paginator
+settings
+models
+middleware
+__version__
+test_project

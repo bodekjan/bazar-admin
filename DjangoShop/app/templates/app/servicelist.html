@@ -1,0 +1,76 @@
+﻿{% extends "app/mainlayout.html" %}
+
+{% block content %}
+{% load pagination_tags %}
+<!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">باش بەت</a></li>
+                <li class="breadcrumb-item">مال باشقۇرۇش</li>
+                <li class="breadcrumb-item active">ماللار تىزىملىكى</li>
+
+                <!-- Breadcrumb Menu-->
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
+                        <a class="btn" href="/addservice"><i class="icon-plus"></i> &nbsp;ھەق قۇشۇش</a>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="container-fluid">
+
+                <div class="animated fadeIn">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <i class="fa fa-align-justify"></i> قۇشۇمچە ھەقلەر
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-xs-center">ھەق نامى</th>
+                                                <th>قۇشۇلغان ۋاقتى</th>
+                                                <th>باھاسى</th>
+                                                <th>سېتىلىشى</th>
+                                                <th>ھالىتى</th>
+                                                <th>باشقۇرۇش</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% autopaginate servives 8 %}
+                                            {% for i in servives %}
+                                            <tr style="line-height:42px">
+                                                <td>{{ i.1 }}</td>
+                                                <td>{{ i.2 }}</td>
+                                                <td>{{ i.3 }} يۈەن</td>
+                                                <td>{{ i.4 }}</td>
+                                                <td>
+                                                    {% if i.5 == 0 %}
+                                                        <span class="badge badge-success">تاللاپ سېتىۋالىدۇ</span>
+                                                    {% else %}
+                                                        <span class="badge badge-warning">چۇقۇم سېتىۋالىدۇ</span>
+                                                    {% endif %}
+                                                </td>
+                                                <td style="width:180px">
+                                                    <a href="/addservice?method=edit&id={{i.0}}" class="btn btn-sm btn-primary">ئۆزگەرتىش</a>
+                                                    <button type="button" id="{{i.0}}" class="btn btn-sm btn-danger remove">ئۈچۈرۈش</button>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}  
+                                        </tbody>
+                                    </table>
+                                    {% paginate %}
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-->
+                    </div>
+                </div>
+
+            </div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/shop/js/views/servicelist.js"></script>
+{% endblock %}

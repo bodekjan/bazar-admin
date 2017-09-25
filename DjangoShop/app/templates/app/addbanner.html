@@ -1,0 +1,116 @@
+﻿{% extends "app/mainlayout.html" %}
+
+{% block content %}
+<!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">Home</li>
+                <li class="breadcrumb-item"><a href="#">Admin</a>
+                </li>
+                <li class="breadcrumb-item active">Dashboard</li>
+
+                <!-- Breadcrumb Menu-->
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="javascript :;" onClick="javascript :history.back(-1);"><i class="icon-arrow-right"></i> &nbsp;تىزىملىككە قايتىش</a>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="container-fluid">
+                <div class="animated fadeIn">
+                    {% if status == "error" %}
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="card text-white bg-danger">
+                                <div class="card-header">
+                                    ئۇچۇر كۆزنىكى
+                                </div>
+                                <div class="card-block">
+                                    مال قۇشۇش مەشخۇلاتى مەغلۇپ بولدى، ئۇچۇرلارنى خاتا تولدۇردىڭىزمۇ يوق تەكشۈرۈپ بېقىپ قايتا يوللاڭ
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if status == "success" %}
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <div class="card text-white bg-success">
+                                <div class="card-header">
+                                    ئۇچۇر كۆزنىكى
+                                </div>
+                                <div class="card-block">
+                                    مال قۇشۇش مۇۋاپىقىيەتلىك بولدى، ئەمدى ماللار تىزىملىكىدىن سىز قوشقان يېڭى مالنى كۆرەلەيسىز
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% if status != "success" %}
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <form action ="/addbanner" method='post' enctype="multipart/form-data">
+                            {% csrf_token %}
+                            <div class="card">
+                                <div class="card-header">
+                                    <strong>ئېلان قۇشۇش</strong>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="form-group col-sm-6">
+                                            <div class="row">
+                                                <div class="form-group col-sm-12">
+                                                    <label for="city">ئېلان ئىسمى</label>
+                                                    {{banners.bannername}}
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-group col-sm-12">
+                                                    <label for="city">ئېلان رەسىمى</label>
+                                                    {{banners.bannerimg}}
+                                                </div>
+                                            </div>
+                                            {% if status == "edit" %}
+                                            <div class="row">
+                                                <div class="form-group col-sm-12">
+                                                    <input type="hidden" name="bannerid" value="{{model.id}}"/>
+                                                </div>
+                                            </div>
+                                            {% endif %}
+                                        </div>
+
+                                        <div class="form-group col-sm-6">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    {% if status == "edit" %}
+                                                        <img src="media/{{model.bannerimg}}" id="bannerPreview" style="display:block; margin:30px auto; width:512px; height:256px;"/>
+                                                    {% else %}
+                                                        <img src="/static/shop/img/null.jpeg" id="bannerPreview" style="display:block; margin:30px auto; width:512px; height:256px;"/>
+                                                    {% endif %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="vat">ئېلان چۈشەندۈرۈشى</label>
+                                        {{banners.bannerdesc}}
+                                    </div>
+                                    <!--/.row-->
+                                </div>
+                                <div class="card-footer">
+                                    <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-dot-circle-o"></i> جەزىملەش</button>
+                                    <button type="reset" class="btn btn-sm btn-danger"><i class="fa fa-ban"></i> ۋاز كىچىش</button>
+                                </div>
+                            </div>
+                            </form>
+                        </div>
+                        <!--/.col-->
+                    </div>
+                    {% endif %}
+                </div>
+
+            </div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/shop/js/views/addbanner.js"></script>
+{% endblock %}

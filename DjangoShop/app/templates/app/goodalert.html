@@ -1,0 +1,33 @@
+﻿{% extends "app/mainlayout.html" %}
+
+{% block content %}
+{% load pagination_tags %}
+<!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">باش بەت</a></li>
+                <li class="breadcrumb-item">مال باشقۇرۇش</li>
+                <li class="breadcrumb-item active">تۈرلەر تىزىملىكى</li>
+
+                <!-- Breadcrumb Menu-->
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
+                        <a class="btn" href="/addtype"><i class="icon-plus"></i> &nbsp;تۈر قۇشۇش</a>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="container-fluid">
+
+                <div class="animated fadeIn">
+                    <div class="row">
+
+                        <!--/.col-->
+                    </div>
+                </div>
+
+            </div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/shop/js/views/typelist.js"></script>
+{% endblock %}

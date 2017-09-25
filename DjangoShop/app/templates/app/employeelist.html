@@ -1,0 +1,101 @@
+﻿{% extends "app/mainlayout.html" %}
+
+{% block content %}
+{% load pagination_tags %}
+<!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">باش بەت</a></li>
+                <li class="breadcrumb-item">خادىم باشقۇرۇش</li>
+                <li class="breadcrumb-item active">خادىملار تىزىملىكى</li>
+
+                <!-- Breadcrumb Menu-->
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
+                        <a class="btn" href="/addemployee"><i class="icon-plus"></i> &nbsp;خادىم قۇشۇش</a>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="container-fluid">
+
+                <div class="animated fadeIn">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <i class="fa fa-align-justify"></i> خادىملار تىزىملىكى
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-xs-center"><i class="icon-people"></i></th>
+                                                <th class="text-xs-center">ئىسمى</th>
+                                                <th class="text-xs-center">يانفۇن نۇمىرى</th>
+                                                <th class="text-xs-center">مال يەتكۈزۈش</th>
+                                                <th class="text-xs-center">ھازىرقى ھالىتى</th>
+                                                <th>باشقۇرۇش</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% autopaginate emp 8 %}
+                                            {% for i in emp %}
+                                            <tr>
+                                                <td class="text-center">
+                                                    <div class="avatar">
+                                                        <img src="media/{{i.1}}" class="img-avatar" alt="admin@bootstrapmaster.com">
+                                                        <span class="avatar-status badge-success"></span>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div>{{ i.2 }}</div>
+                                                    <div class="small text-muted">
+                                                        {{ i.4 }}
+                                                    </div>
+                                                </td>
+                                                <td class="text-muted">
+                                                    {{ i.3 }}
+                                                </td>
+                                                <td>
+                                                    <div class="clearfix">
+                                                        <div class="float-right">
+                                                            <strong>{{ i.6 }}</strong>
+                                                        </div>
+                                                    </div>
+                                                    <div class="progress progress-xs">
+                                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 74%" aria-valuenow="1150" aria-valuemin="0" aria-valuemax="1574"></div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="small text-muted">مۇشۇ ۋاقىتتا</div>
+                                                    <strong>
+                                                        {% if i.5 == 0 %}
+                                                            <span class="badge badge-success">ھازىر بېكار</span>
+                                                        {% else %}
+                                                            <span class="badge badge-warning">مال يەتكۈزىۋاتىدۇ</span>
+                                                        {% endif %}
+                                                    </strong>
+                                                </td>
+                                                <td style="width:180px">
+                                                    <a href="/addemployee?method=edit&id={{i.0}}" class="btn btn-sm btn-primary">ئۆزگەرتىش</a>
+                                                    <button type="button" id="{{i.0}}" class="btn btn-sm btn-danger remove">ئۈچۈرۈش</button>
+                                                </td>
+                                            </tr>
+                                            
+                                            {% endfor %}  
+                                        </tbody>
+                                    </table>
+                                    {% paginate %}
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-->
+                    </div>
+                </div>
+
+            </div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/shop/js/views/emplist.js"></script>
+{% endblock %}

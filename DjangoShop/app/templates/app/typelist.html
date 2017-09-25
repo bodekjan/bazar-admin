@@ -1,0 +1,74 @@
+﻿{% extends "app/mainlayout.html" %}
+
+{% block content %}
+{% load pagination_tags %}
+<!-- Breadcrumb -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">باش بەت</a></li>
+                <li class="breadcrumb-item">مال باشقۇرۇش</li>
+                <li class="breadcrumb-item active">تۈرلەر تىزىملىكى</li>
+
+                <!-- Breadcrumb Menu-->
+                <li class="breadcrumb-menu d-md-down-none">
+                    <div class="btn-group" role="group" aria-label="Button group">
+                        <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
+                        <a class="btn" href="/addtype"><i class="icon-plus"></i> &nbsp;تۈر قۇشۇش</a>
+                    </div>
+                </li>
+            </ol>
+
+            <div class="container-fluid">
+
+                <div class="animated fadeIn">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <i class="fa fa-align-justify"></i> تۈرلەر تىزىملىكى
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-xs-center"><i class="icon-people"></i></th>
+                                                <th class="text-xs-center">تۈر نامى</th>
+                                                <th>قۇشۇلغان ۋاقتى</th>
+                                                <th class="text-xs-center">مال سانى</th>
+                                                <th>باشقۇرۇش</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% autopaginate types 8 %}
+                                            {% for i in types %}
+                                            <tr style="line-height:42px">
+                                                <td style="width:48px;"><img src="media/{{i.2}}" style="width:42px; height:42px"/></td>
+                                                <td>{{ i.1 }}</td>
+                                                <td>
+                                                    <div class="clearfix">
+                                                        <div class="pull-right">
+                                                            <small class="text-muted">{{ i.3 }}</small>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>{{ i.5 }}</td>
+                                                <td style="width:180px">
+                                                    <a href="/addtype?method=edit&id={{i.0}}" class="btn btn-sm btn-primary">ئۆزگەرتىش</a>
+                                                    <button type="button" id="{{i.0}}" class="btn btn-sm btn-danger remove">ئۈچۈرۈش</button>
+                                                </td>
+                                            </tr>
+                                            {% endfor %}  
+                                        </tbody>
+                                    </table>
+                                    {% paginate %}
+                                </div>
+                            </div>
+                        </div>
+                        <!--/.col-->
+                    </div>
+                </div>
+
+            </div>
+{% endblock %}
+{% block scripts %}
+<script src="/static/shop/js/views/typelist.js"></script>
+{% endblock %}
