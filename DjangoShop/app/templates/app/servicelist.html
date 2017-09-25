@@ -6,13 +6,13 @@
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">باش بەت</a></li>
                 <li class="breadcrumb-item">مال باشقۇرۇش</li>
-                <li class="breadcrumb-item active">ماللار تىزىملىكى</li>
+                <li class="breadcrumb-item active">قۇشۇمچە ھەقلەر</li>
 
                 <!-- Breadcrumb Menu-->
                 <li class="breadcrumb-menu d-md-down-none">
                     <div class="btn-group" role="group" aria-label="Button group">
                         <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
-                        <a class="btn" href="/addservice"><i class="icon-plus"></i> &nbsp;ھەق قۇشۇش</a>
+                        <a class="btn" href="#" id="addservice"><i class="icon-plus"></i> &nbsp;ھەق قۇشۇش</a>
                     </div>
                 </li>
             </ol>
@@ -54,7 +54,7 @@
                                                     {% endif %}
                                                 </td>
                                                 <td style="width:180px">
-                                                    <a href="/addservice?method=edit&id={{i.0}}" class="btn btn-sm btn-primary">ئۆزگەرتىش</a>
+                                                    <button type="button" id="{{i.0}}" class="btn btn-sm btn-primary editservice">ئۆزگەرتىش</button>
                                                     <button type="button" id="{{i.0}}" class="btn btn-sm btn-danger remove">ئۈچۈرۈش</button>
                                                 </td>
                                             </tr>

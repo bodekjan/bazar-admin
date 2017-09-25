@@ -12,7 +12,7 @@
                 <li class="breadcrumb-menu d-md-down-none">
                     <div class="btn-group" role="group" aria-label="Button group">
                         <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
-                        <a class="btn" href="/addtype"><i class="icon-plus"></i> &nbsp;تۈر قۇشۇش</a>
+                        <a class="btn" href="#" id="addtype"><i class="icon-plus"></i> &nbsp;تۈر قۇشۇش</a>
                     </div>
                 </li>
             </ol>
@@ -52,7 +52,7 @@
                                                 </td>
                                                 <td>{{ i.5 }}</td>
                                                 <td style="width:180px">
-                                                    <a href="/addtype?method=edit&id={{i.0}}" class="btn btn-sm btn-primary">ئۆزگەرتىش</a>
+                                                    <button type="button" id="{{i.0}}" class="btn btn-sm btn-primary edittype">ئۆزگەرتىش</button>
                                                     <button type="button" id="{{i.0}}" class="btn btn-sm btn-danger remove">ئۈچۈرۈش</button>
                                                 </td>
                                             </tr>

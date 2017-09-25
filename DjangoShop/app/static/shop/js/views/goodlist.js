@@ -15,6 +15,11 @@ $(function(){
           });
           d.show();
       });
+      $(".editgood").click(function () {
+          var meId = $(this).attr("id");
+          setCookie("parentpage", window.location.search.substr(1));
+          location.href = "/addgood?method=edit&id=" + meId;
+      });
       $("#search").click(function () {
           location.href = "/goodlist?key=" + $("#stext").val() + "&type=" + $("#type-selector").find("option:selected").val();
       });
@@ -27,7 +32,8 @@ $(function(){
           if (r != null) return unescape(r[2]); return null;
       }
       $("#addgood").click(function () {
-          alert(GetQueryString("addgood"));
+          setCookie("parentpage", window.location.search.substr(1));
+          location.href = "/addgood";
       });
       
 });

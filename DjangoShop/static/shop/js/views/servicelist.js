@@ -15,4 +15,13 @@ $(function(){
           });
           d.show();
       });
+      $(".editservice").click(function () {
+          var meId = $(this).attr("id");
+          setCookie("parentpage", window.location.search.substr(1));
+          location.href = "/addservice?method=edit&id=" + meId;
+      });
+      $("#addservice").click(function () {
+          setCookie("parentpage", window.location.search.substr(1));
+          location.href = "/addservice";
+      });
 });

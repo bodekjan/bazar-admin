@@ -1014,6 +1014,9 @@
     <Content Include="app\static\shop\css\font-awesome.min.css" />
     <Content Include="app\static\shop\css\simple-line-icons.css" />
     <Content Include="app\static\shop\css\style.css" />
+    <Content Include="app\static\shop\css\uyfont.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="app\static\shop\fonts\fontawesome-webfont.eot" />
     <Content Include="app\static\shop\fonts\fontawesome-webfont.svg" />
     <Content Include="app\static\shop\fonts\fontawesome-webfont.ttf" />
@@ -1025,6 +1028,9 @@
     <Content Include="app\static\shop\fonts\Simple-Line-Icons.ttf" />
     <Content Include="app\static\shop\fonts\Simple-Line-Icons.woff" />
     <Content Include="app\static\shop\fonts\Simple-Line-Icons.woff2" />
+    <Content Include="app\static\shop\fonts\subset-UKIJEsliye.ttf" />
+    <Content Include="app\static\shop\fonts\subset-UKIJEsliye.woff" />
+    <Content Include="app\static\shop\fonts\subset-UKIJEsliye.woff2" />
     <Content Include="app\static\shop\img\admin.png" />
     <Content Include="app\static\shop\img\coin.png" />
     <Content Include="app\static\shop\img\favicon.png" />
@@ -1033,6 +1039,9 @@
     <Content Include="app\static\shop\img\user.png" />
     <Content Include="app\static\shop\js\app.js" />
     <Content Include="app\static\shop\js\art-dialog.js" />
+    <Content Include="app\static\shop\js\views\addemp.js" />
+    <Content Include="app\static\shop\js\views\addplace.js" />
+    <Content Include="app\static\shop\js\views\addservice.js" />
     <Content Include="app\static\shop\js\views\addtype.js" />
     <Content Include="app\static\shop\js\views\servicelist.js" />
     <Content Include="app\static\shop\js\views\placelist.js" />
