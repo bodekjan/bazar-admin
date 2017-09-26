@@ -24,12 +24,16 @@ def main(request):
     is_login = request.session.get('login',False)
     if is_login==False:
         return redirect('/login')
+    # stastics
+    userCount = User.objects.count()
+    goodCount = Good.objects.count()
     return render(
         request,
         'app/mainpage.html',
         {
             'title':'Home Page',
-            'year':datetime.now().year,
+            'usercount': userCount ,
+            'goodcount': goodCount
         }
     )
 

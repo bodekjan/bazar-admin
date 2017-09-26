@@ -12,7 +12,7 @@
                 <li class="breadcrumb-menu d-md-down-none">
                     <div class="btn-group" role="group" aria-label="Button group">
                         <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
-                        <a class="btn" href="/addgood"><i class="icon-plus"></i> &nbsp;مال قۇشۇش</a>
+                        <a class="btn" href="#" id="addgood"><i class="icon-plus"></i> &nbsp;مال قۇشۇش</a>
                     </div>
                 </li>
             </ol>
@@ -101,7 +101,7 @@
                                                     {% endif %}
                                                 </td>
                                                 <td style="width:180px">
-                                                    <a href="/addgood?method=edit&id={{i.0}}" class="btn btn-sm btn-primary">ئۆزگەرتىش</a>
+                                                    <button type="button" id="{{i.0}}" class="btn btn-sm btn-primary editgood">ئۆزگەرتىش</button>
                                                     <button type="button" id="{{i.0}}" class="btn btn-sm btn-danger remove">ئۈچۈرۈش</button>
                                                 </td>
                                             </tr>

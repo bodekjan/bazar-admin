@@ -5,14 +5,14 @@
 <!-- Breadcrumb -->
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">باش بەت</a></li>
-                <li class="breadcrumb-item">مال باشقۇرۇش</li>
-                <li class="breadcrumb-item active">تۈرلەر تىزىملىكى</li>
+                <li class="breadcrumb-item">بېكەت باشقۇرۇش</li>
+                <li class="breadcrumb-item active">ئېلان تىزىملىكى</li>
 
                 <!-- Breadcrumb Menu-->
                 <li class="breadcrumb-menu d-md-down-none">
                     <div class="btn-group" role="group" aria-label="Button group">
                         <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
-                        <a class="btn" href="/addbanner"><i class="icon-plus"></i> &nbsp;ئېلان قۇشۇش</a>
+                        <a class="btn" href="#" id="addbanner"><i class="icon-plus"></i> &nbsp;ئېلان قۇشۇش</a>
                     </div>
                 </li>
             </ol>
@@ -50,7 +50,7 @@
                                                     </div>
                                                 </td>
                                                 <td style="width:180px">
-                                                    <a href="/addbanner?method=edit&id={{i.0}}" class="btn btn-sm btn-primary">ئۆزگەرتىش</a>
+                                                    <button type="button" id="{{i.0}}" class="btn btn-sm btn-primary editbanner">ئۆزگەرتىش</button>
                                                     <button type="button" id="{{i.0}}" class="btn btn-sm btn-danger remove">ئۈچۈرۈش</button>
                                                 </td>
                                             </tr>

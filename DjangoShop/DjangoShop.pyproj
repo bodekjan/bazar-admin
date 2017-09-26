@@ -1043,6 +1043,7 @@
     <Content Include="app\static\shop\js\views\addplace.js" />
     <Content Include="app\static\shop\js\views\addservice.js" />
     <Content Include="app\static\shop\js\views\addtype.js" />
+    <Content Include="app\static\shop\js\views\errorlist.js" />
     <Content Include="app\static\shop\js\views\servicelist.js" />
     <Content Include="app\static\shop\js\views\placelist.js" />
     <Content Include="app\static\shop\js\views\emplist.js" />
@@ -1082,6 +1083,7 @@
     <None Include="FolderProfile6.pubxml" />
     <None Include="FolderProfile7.pubxml" />
     <None Include="FolderProfile8.pubxml" />
+    <None Include="FolderProfile9.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

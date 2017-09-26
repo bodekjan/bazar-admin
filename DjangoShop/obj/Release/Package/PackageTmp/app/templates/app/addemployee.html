@@ -3,15 +3,15 @@
 {% block content %}
 <!-- Breadcrumb -->
             <ol class="breadcrumb">
-                <li class="breadcrumb-item">Home</li>
-                <li class="breadcrumb-item"><a href="#">Admin</a>
-                </li>
-                <li class="breadcrumb-item active">Dashboard</li>
+                <li class="breadcrumb-item"><a href="#">باش بەت</a></li>
+                <li class="breadcrumb-item">خادىم باشقۇرۇش</li>
+                <li class="breadcrumb-item active">خادىملار تىزىملىكى</li>
+                <li class="breadcrumb-item active">خادىم قۇشۇش</li>
 
                 <!-- Breadcrumb Menu-->
                 <li class="breadcrumb-menu d-md-down-none">
                     <div class="btn-group" role="group" aria-label="Button group">
-                        <a class="btn" href="javascript :;" onClick="javascript :history.back(-1);"><i class="icon-arrow-right"></i> &nbsp;تىزىملىككە قايتىش</a>
+                        <a class="btn" href="#" id="backtolist"><i class="icon-arrow-right"></i> &nbsp;تىزىملىككە قايتىش</a>
                     </div>
                 </li>
             </ol>
@@ -114,5 +114,5 @@
             </div>
 {% endblock %}
 {% block scripts %}
-<script src="/static/shop/js/views/addgoods.js"></script>
+<script src="/static/shop/js/views/addemp.js"></script>
 {% endblock %}

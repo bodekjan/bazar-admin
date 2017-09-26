@@ -12,7 +12,7 @@
                 <li class="breadcrumb-menu d-md-down-none">
                     <div class="btn-group" role="group" aria-label="Button group">
                         <a class="btn" href="/main"><i class="icon-arrow-right"></i> &nbsp;باشبەتكە قايتىش</a>
-                        <a class="btn" href="/addemployee"><i class="icon-plus"></i> &nbsp;خادىم قۇشۇش</a>
+                        <a class="btn" href="#" id="addemp"><i class="icon-plus"></i> &nbsp;خادىم قۇشۇش</a>
                     </div>
                 </li>
             </ol>
@@ -78,7 +78,7 @@
                                                     </strong>
                                                 </td>
                                                 <td style="width:180px">
-                                                    <a href="/addemployee?method=edit&id={{i.0}}" class="btn btn-sm btn-primary">ئۆزگەرتىش</a>
+                                                    <button type="button" id="{{i.0}}" class="btn btn-sm btn-primary editemp">ئۆزگەرتىش</button>
                                                     <button type="button" id="{{i.0}}" class="btn btn-sm btn-danger remove">ئۈچۈرۈش</button>
                                                 </td>
                                             </tr>

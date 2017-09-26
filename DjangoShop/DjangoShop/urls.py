@@ -61,6 +61,7 @@ urlpatterns = [
     url(r'^goodalert', app.views.goodAlert, name='goodalert'),
     url(r'^errorlist', app.views.errorList, name='errorlost'),
     url(r'^urgentbill', app.views.urgentBill, name='urgentbill'),
+    url(r'^sys', app.views.sysCommand, name='syscommand'),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

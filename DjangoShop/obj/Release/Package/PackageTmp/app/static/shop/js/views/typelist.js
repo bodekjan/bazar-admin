@@ -15,4 +15,13 @@ $(function(){
           });
           d.show();
       });
+      $(".edittype").click(function () {
+          var meId = $(this).attr("id");
+          setCookie("parentpage", window.location.search.substr(1));
+          location.href = "/addtype?method=edit&id=" + meId;
+      });
+      $("#addtype").click(function () {
+          setCookie("parentpage", window.location.search.substr(1));
+          location.href = "/addtype";
+      });
 });
