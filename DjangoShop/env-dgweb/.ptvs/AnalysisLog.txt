@@ -12911,3 +12911,743 @@ ImportError: DLL load failed: 找不到指定的模块。
 2017-09-26T12:17:11: [ERROR] pkg_resources._vendor.appdirs.site_data_dir: Unknown has no name
 2017-09-26T12:17:11: End of group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pkg_resources"
 2017-09-26T12:17:13: Deleting 0 files
+
+2017-09-27T00:06:22: Start analysis
+2017-09-27T00:06:22: IncludeModulesFromModulePath = win32com
+2017-09-27T00:06:25: Including d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination because dj_pagination.test_project.settings needs updating
+2017-09-27T00:06:25: Including d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination because dj_pagination.tests.runner needs updating
+2017-09-27T00:06:25: Including d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi because mod_wsgi.server.apxs_config needs updating
+2017-09-27T00:06:25: Including d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip because pip.basecommand needs updating
+2017-09-27T00:06:25: Including d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql because pymysql.tests.base needs updating
+2017-09-27T00:06:25: Including d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools because setuptools.archive_util needs updating
+2017-09-27T00:06:25: Deleting 143 files
+2017-09-27T00:06:25: Scraping mod_wsgi.server.mod_wsgi
+2017-09-27T00:06:25: Command: "D:\Workspace\visual studio 2017\Projects\DjangoShop\DjangoShop\env-dgweb\Scripts\python.exe" "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Microsoft\Python\Core\ExtensionScraper.py" scrape mod_wsgi.server.mod_wsgi "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages" "D:\Workspace\visual studio 2017\Projects\DjangoShop\DjangoShop\env-dgweb\.ptvs\mod_wsgi\mod_wsgi.server.mod_wsgi"
+2017-09-27T00:06:26: Output
+__import__("mod_wsgi.server.mod_wsgi")
+2017-09-27T00:06:26: [WARNING] Errors
+Traceback (most recent call last):
+  File "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Microsoft\Python\Core\ExtensionScraper.py", line 48, in <module>
+    __import__(mod_name)
+ImportError: DLL load failed: 找不到指定的模块。
+2017-09-27T00:06:26: [ERROR] Failed to scrape mod_wsgi.server.mod_wsgi (Exit code: 1)
+2017-09-27T00:06:26: Scraped 1 files
+2017-09-27T00:06:26: astropy.CallDepth = 0
+2017-09-27T00:06:26: delphixpy.CallDepth = 0
+2017-09-27T00:06:26: matplotlib.CallDepth = 3
+2017-09-27T00:06:26: pandas.CallDepth = 0
+2017-09-27T00:06:26: sympy.CallDepth = 0
+2017-09-27T00:06:26: Start group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination" with 16 files
+2017-09-27T00:06:26: Parsing complete
+2017-09-27T00:06:26: Analyzing "dj_pagination.middleware" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\middleware.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.models" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\models.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.paginator" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\paginator.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.settings" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\settings.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\__init__.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.templatetags.pagination_tags" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\templatetags\pagination_tags.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.templatetags" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\templatetags\__init__.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.test_project.manage" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\test_project\manage.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.test_project.settings" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\test_project\settings.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.test_project.tests" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\test_project\tests.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.test_project.urls" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\test_project\urls.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.test_project" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\test_project\__init__.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.test_project.example.models" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\test_project\example\models.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.test_project.example.urls" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\test_project\example\urls.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.test_project.example.views" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\test_project\example\views.py")
+2017-09-27T00:06:26: Analyzing "dj_pagination.test_project.example" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\test_project\example\__init__.py")
+2017-09-27T00:06:26: Starting analysis of 16 modules
+2017-09-27T00:06:28: Analysis complete
+2017-09-27T00:06:28: Saving group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination"
+2017-09-27T00:06:28: End of group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination"
+2017-09-27T00:06:28: Start group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination" with 4 files
+2017-09-27T00:06:28: Parsing complete
+2017-09-27T00:06:28: Analyzing "dj_pagination.tests.runner" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\tests\runner.py")
+2017-09-27T00:06:28: Analyzing "dj_pagination.tests.settings" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\tests\settings.py")
+2017-09-27T00:06:28: Analyzing "dj_pagination.tests.test_main" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\tests\test_main.py")
+2017-09-27T00:06:28: Analyzing "dj_pagination.tests" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination\tests\__init__.py")
+2017-09-27T00:06:28: Starting analysis of 4 modules
+2017-09-27T00:06:29: Analysis complete
+2017-09-27T00:06:29: Saving group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination"
+2017-09-27T00:06:29: End of group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\dj_pagination"
+2017-09-27T00:06:29: Start group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi" with 9 files
+2017-09-27T00:06:29: Parsing complete
+2017-09-27T00:06:29: Analyzing "mod_wsgi" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi\__init__.py")
+2017-09-27T00:06:29: Analyzing "mod_wsgi.docs" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi\docs\__init__.py")
+2017-09-27T00:06:29: Analyzing "mod_wsgi.images" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi\images\__init__.py")
+2017-09-27T00:06:29: Analyzing "mod_wsgi.server.apxs_config" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi\server\apxs_config.py")
+2017-09-27T00:06:29: Analyzing "mod_wsgi.server.environ" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi\server\environ.py")
+2017-09-27T00:06:29: Analyzing "mod_wsgi.server" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi\server\__init__.py")
+2017-09-27T00:06:29: Analyzing "mod_wsgi.server.management" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi\server\management\__init__.py")
+2017-09-27T00:06:29: Analyzing "mod_wsgi.server.management.commands.runmodwsgi" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi\server\management\commands\runmodwsgi.py")
+2017-09-27T00:06:29: Analyzing "mod_wsgi.server.management.commands" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi\server\management\commands\__init__.py")
+2017-09-27T00:06:29: Starting analysis of 9 modules
+2017-09-27T00:06:31: Analysis complete
+2017-09-27T00:06:31: Saving group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi"
+2017-09-27T00:06:31: [ERROR] mod_wsgi.server.find_program: Unknown has no name
+2017-09-27T00:06:31: End of group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\mod_wsgi"
+2017-09-27T00:06:31: Start group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip" with 241 files
+2017-09-27T00:06:34: Parsing complete
+2017-09-27T00:06:34: Analyzing "pip.basecommand" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\basecommand.py")
+2017-09-27T00:06:34: Analyzing "pip.baseparser" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\baseparser.py")
+2017-09-27T00:06:34: Analyzing "pip.cmdoptions" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\cmdoptions.py")
+2017-09-27T00:06:34: Analyzing "pip.download" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\download.py")
+2017-09-27T00:06:34: Analyzing "pip.exceptions" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\exceptions.py")
+2017-09-27T00:06:34: Analyzing "pip.index" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\index.py")
+2017-09-27T00:06:34: Analyzing "pip.locations" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\locations.py")
+2017-09-27T00:06:34: Analyzing "pip.pep425tags" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\pep425tags.py")
+2017-09-27T00:06:34: Analyzing "pip.status_codes" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\status_codes.py")
+2017-09-27T00:06:34: Analyzing "pip.wheel" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\wheel.py")
+2017-09-27T00:06:34: Analyzing "pip" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip.__main__" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\__main__.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.check" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\check.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.completion" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\completion.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.download" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\download.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.freeze" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\freeze.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.hash" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\hash.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.help" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\help.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.install" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\install.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.list" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\list.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.search" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\search.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.show" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\show.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.uninstall" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\uninstall.py")
+2017-09-27T00:06:34: Analyzing "pip.commands.wheel" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\wheel.py")
+2017-09-27T00:06:34: Analyzing "pip.commands" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\commands\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip.compat.dictconfig" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\compat\dictconfig.py")
+2017-09-27T00:06:34: Analyzing "pip.compat" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\compat\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip.models.index" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\models\index.py")
+2017-09-27T00:06:34: Analyzing "pip.models" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\models\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip.operations.check" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\operations\check.py")
+2017-09-27T00:06:34: Analyzing "pip.operations.freeze" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\operations\freeze.py")
+2017-09-27T00:06:34: Analyzing "pip.operations" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\operations\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip.req.req_file" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\req\req_file.py")
+2017-09-27T00:06:34: Analyzing "pip.req.req_install" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\req\req_install.py")
+2017-09-27T00:06:34: Analyzing "pip.req.req_set" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\req\req_set.py")
+2017-09-27T00:06:34: Analyzing "pip.req.req_uninstall" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\req\req_uninstall.py")
+2017-09-27T00:06:34: Analyzing "pip.req" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\req\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.appdirs" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\appdirs.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.build" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\build.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.deprecation" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\deprecation.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.encoding" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\encoding.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.filesystem" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\filesystem.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.glibc" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\glibc.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.hashes" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\hashes.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.logging" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\logging.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.outdated" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\outdated.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.packaging" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\packaging.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.setuptools_build" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\setuptools_build.py")
+2017-09-27T00:06:34: Analyzing "pip.utils.ui" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\ui.py")
+2017-09-27T00:06:34: Analyzing "pip.utils" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\utils\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip.vcs.bazaar" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\vcs\bazaar.py")
+2017-09-27T00:06:34: Analyzing "pip.vcs.git" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\vcs\git.py")
+2017-09-27T00:06:34: Analyzing "pip.vcs.mercurial" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\vcs\mercurial.py")
+2017-09-27T00:06:34: Analyzing "pip.vcs.subversion" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\vcs\subversion.py")
+2017-09-27T00:06:34: Analyzing "pip.vcs" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\vcs\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.appdirs" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\appdirs.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distro" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distro.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.ipaddress" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\ipaddress.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.ordereddict" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\ordereddict.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.pyparsing" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\pyparsing.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.retrying" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\retrying.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.six" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\six.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.adapter" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\adapter.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.cache" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\cache.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.compat" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\compat.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.controller" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\controller.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.filewrapper" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\filewrapper.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.heuristics" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\heuristics.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.serialize" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\serialize.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.wrapper" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\wrapper.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol._cmd" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\_cmd.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.caches.file_cache" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\caches\file_cache.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.caches.redis_cache" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\caches\redis_cache.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.cachecontrol.caches" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\cachecontrol\caches\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.colorama.ansi" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\colorama\ansi.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.colorama.ansitowin32" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\colorama\ansitowin32.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.colorama.initialise" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\colorama\initialise.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.colorama.win32" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\colorama\win32.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.colorama.winterm" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\colorama\winterm.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.colorama" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\colorama\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.compat" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\compat.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.database" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\database.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.index" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\index.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.locators" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\locators.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.manifest" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\manifest.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.markers" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\markers.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.metadata" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\metadata.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.resources" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\resources.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.scripts" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\scripts.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.util" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\util.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.version" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\version.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib.wheel" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\wheel.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib._backport.misc" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\_backport\misc.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib._backport.shutil" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\_backport\shutil.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib._backport.sysconfig" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\_backport\sysconfig.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib._backport.tarfile" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\_backport\tarfile.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.distlib._backport" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\distlib\_backport\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.constants" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\constants.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.html5parser" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\html5parser.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.serializer" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\serializer.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib._ihatexml" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\_ihatexml.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib._inputstream" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\_inputstream.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib._tokenizer" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\_tokenizer.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib._utils" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\_utils.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.filters.alphabeticalattributes" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\filters\alphabeticalattributes.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.filters.base" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\filters\base.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.filters.inject_meta_charset" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\filters\inject_meta_charset.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.filters.lint" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\filters\lint.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.filters.optionaltags" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\filters\optionaltags.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.filters.sanitizer" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\filters\sanitizer.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.filters.whitespace" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\filters\whitespace.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.filters" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\filters\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treeadapters.genshi" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treeadapters\genshi.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treeadapters.sax" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treeadapters\sax.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treeadapters" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treeadapters\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treebuilders.base" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treebuilders\base.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treebuilders.dom" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treebuilders\dom.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treebuilders.etree" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treebuilders\etree.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treebuilders.etree_lxml" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treebuilders\etree_lxml.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treebuilders" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treebuilders\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treewalkers.base" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treewalkers\base.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treewalkers.dom" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treewalkers\dom.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treewalkers.etree" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treewalkers\etree.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treewalkers.etree_lxml" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treewalkers\etree_lxml.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treewalkers.genshi" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treewalkers\genshi.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib.treewalkers" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\treewalkers\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib._trie.datrie" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\_trie\datrie.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib._trie.py" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\_trie\py.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib._trie._base" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\_trie\_base.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.html5lib._trie" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\html5lib\_trie\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.lockfile.linklockfile" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\lockfile\linklockfile.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.lockfile.mkdirlockfile" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\lockfile\mkdirlockfile.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.lockfile.pidlockfile" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\lockfile\pidlockfile.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.lockfile.sqlitelockfile" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\lockfile\sqlitelockfile.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.lockfile.symlinklockfile" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\lockfile\symlinklockfile.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.lockfile" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\lockfile\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.packaging.markers" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\packaging\markers.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.packaging.requirements" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\packaging\requirements.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.packaging.specifiers" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\packaging\specifiers.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.packaging.utils" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\packaging\utils.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.packaging.version" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\packaging\version.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.packaging._compat" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\packaging\_compat.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.packaging._structures" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\packaging\_structures.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.packaging.__about__" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\packaging\__about__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.packaging" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\packaging\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.pkg_resources" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\pkg_resources\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.progress.bar" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\progress\bar.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.progress.counter" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\progress\counter.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.progress.helpers" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\progress\helpers.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.progress.spinner" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\progress\spinner.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.progress" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\progress\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.adapters" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\adapters.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.api" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\api.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.auth" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\auth.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.certs" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\certs.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.compat" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\compat.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.cookies" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\cookies.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.exceptions" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\exceptions.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.hooks" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\hooks.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.models" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\models.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.sessions" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\sessions.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.status_codes" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\status_codes.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.structures" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\structures.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.utils" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\utils.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.big5freq" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\big5freq.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.big5prober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\big5prober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.chardetect" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\chardetect.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.chardistribution" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\chardistribution.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.charsetgroupprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\charsetgroupprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.charsetprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\charsetprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.codingstatemachine" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\codingstatemachine.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.compat" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\compat.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.constants" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\constants.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.cp949prober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\cp949prober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.escprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\escprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.escsm" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\escsm.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.eucjpprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\eucjpprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.euckrfreq" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\euckrfreq.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.euckrprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\euckrprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.euctwfreq" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\euctwfreq.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.euctwprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\euctwprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.gb2312freq" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312freq.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.gb2312prober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\gb2312prober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.hebrewprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\hebrewprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.jisfreq" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\jisfreq.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.jpcntx" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\jpcntx.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.langbulgarianmodel" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\langbulgarianmodel.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.langcyrillicmodel" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\langcyrillicmodel.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.langgreekmodel" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\langgreekmodel.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.langhebrewmodel" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\langhebrewmodel.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.langhungarianmodel" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\langhungarianmodel.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.langthaimodel" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\langthaimodel.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.latin1prober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\latin1prober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.mbcharsetprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\mbcharsetprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.mbcsgroupprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\mbcsgroupprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.mbcssm" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\mbcssm.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.sbcharsetprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\sbcharsetprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.sbcsgroupprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\sbcsgroupprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.sjisprober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\sjisprober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.universaldetector" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\universaldetector.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet.utf8prober" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\utf8prober.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.chardet" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\chardet\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.connection" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\connection.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.connectionpool" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\connectionpool.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.exceptions" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\exceptions.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.fields" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\fields.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.filepost" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\filepost.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.poolmanager" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\poolmanager.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.request" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\request.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.response" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\response.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3._collections" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\_collections.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.contrib.appengine" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\appengine.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.contrib.ntlmpool" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\ntlmpool.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.contrib.pyopenssl" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\pyopenssl.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.contrib.socks" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\socks.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.contrib" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\contrib\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.packages.ordered_dict" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ordered_dict.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.packages.six" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\six.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.packages" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname._implementation" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.packages.ssl_match_hostname" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\packages\ssl_match_hostname\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.util.connection" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\util\connection.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.util.request" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\util\request.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.util.response" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\util\response.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.util.retry" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\util\retry.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.util.ssl_" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\util\ssl_.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.util.timeout" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\util\timeout.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.util.url" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\util\url.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.requests.packages.urllib3.util" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\requests\packages\urllib3\util\__init__.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.webencodings.labels" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\webencodings\labels.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.webencodings.mklabels" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\webencodings\mklabels.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.webencodings.tests" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\webencodings\tests.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.webencodings.x_user_defined" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\webencodings\x_user_defined.py")
+2017-09-27T00:06:34: Analyzing "pip._vendor.webencodings" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip\_vendor\webencodings\__init__.py")
+2017-09-27T00:06:34: Starting analysis of 241 modules
+2017-09-27T00:06:46: Analysis complete
+2017-09-27T00:06:46: Saving group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip"
+2017-09-27T00:06:47: [ERROR] pip.index.PackageFinder.PackageFinder: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.scripts._enquote_executable: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.scripts._enquote_executable: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.scripts.ScriptMaker.ScriptMaker: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.scripts.ScriptMaker.ScriptMaker: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.scripts.ScriptMaker.ScriptMaker: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.scripts.ScriptMaker.ScriptMaker: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.scripts.ScriptMaker.ScriptMaker: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.scripts.ScriptMaker.ScriptMaker: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.scripts.ScriptMaker.ScriptMaker: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.scripts.ScriptMaker.ScriptMaker: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.outdated.USER_CACHE_DIR: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.locators.DirectoryLocator.DirectoryLocator: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.sessions.SessionRedirectMixin.SessionRedirectMixin: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.sessions.SessionRedirectMixin.SessionRedirectMixin: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.sessions.Session.Session: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.sessions.Session.Session: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.sessions.merge_setting: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.appdirs.user_config_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.appdirs.user_data_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_uninstall.UninstallPathSet.UninstallPathSet: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_uninstall.UninstallPathSet.UninstallPathSet: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_uninstall.UninstallPathSet.UninstallPathSet: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_uninstall.UninstallPathSet.UninstallPathSet: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_uninstall.UninstallPthEntries.UninstallPthEntries: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.hashes.Hashes.Hashes: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.EggInfoDistribution.EggInfoDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.InstalledDistribution.InstalledDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.InstalledDistribution.InstalledDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.InstalledDistribution.InstalledDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.InstalledDistribution.InstalledDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.BaseInstalledDistribution.BaseInstalledDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.new_dist_class.InstalledDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.new_dist_class.InstalledDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.new_dist_class.InstalledDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.new_dist_class.InstalledDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.database.old_dist_class.EggInfoDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.locations.USER_CACHE_DIR: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.cmdoptions.USER_CACHE_DIR: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.wheel.Wheel.Wheel: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.wheel.Wheel.Wheel: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.wheel.Wheel.Wheel: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.wheel.Wheel.Wheel: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.wheel.to_posix: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.wheel.to_posix: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.wheel.to_posix: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.cachecontrol.caches.file_cache._secure_open_write: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util._csv_open: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util._iglob: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.Configurator.Configurator: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.iglob: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.SafeTransport.SafeTransport: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.SafeTransport.SafeTransport: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.SafeTransport.SafeTransport: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.FileOperator.FileOperator: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.FileOperator.FileOperator: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.FileOperator.FileOperator: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.FileOperator.FileOperator: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.FileOperator.FileOperator: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.FileOperator.FileOperator: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.FileOperator.FileOperator: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.FileOperator.FileOperator: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.Transport.Transport: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.Transport.Transport: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.Transport.Transport: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.path_to_cache_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.convert_path: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.CSVWriter.CSVWriter: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.get_cache_base: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.Cache.Cache: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.util.Cache.Cache: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.metadata.Metadata.Metadata: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.metadata.Metadata.Metadata: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.commands.install.get_lib_location_guesses: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.commands.install.get_lib_location_guesses: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil.copymode: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil.rmtree: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil._samefile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil._samefile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil.copystat: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil.copystat: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil.copyfile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil.copyfile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil._ensure_directory: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil.copytree: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil.copytree: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil.copy2: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.shutil.copy2: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile._Stream._Stream: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile._LowLevelFile._LowLevelFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.open: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.bltn_open: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.tarfile.TarFile.TarFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.wheel.open_for_csv: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.wheel.rehash: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.wheel.WheelBuilder.WheelBuilder: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.wheel.fix_script: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.wheel.get_entrypoints: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.wheel._cache_for_link: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.download._copy_file: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.download.is_archive_file: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.download.path_to_url: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.download.get_file_content: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.download.get_file_content: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.download._check_download_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.manifest.Manifest.Manifest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.manifest.Manifest.Manifest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.manifest.Manifest.Manifest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.manifest.Manifest.Manifest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.manifest.Manifest.Manifest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.manifest.Manifest.Manifest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.manifest.Manifest.Manifest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.manifest.Manifest.Manifest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.manifest.Manifest.Manifest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.manifest.Manifest.Manifest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pyparsing.ParseExpression.ParseExpression: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pyparsing._ustr: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.utils.to_key_val_list: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.html5lib.html5parser.HTMLParser.HTMLParser: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.lockfile.mkdirlockfile.MkdirLockFile.MkdirLockFile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.resources.ResourceCache.ResourceCache: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.resources.ResourceFinder.ResourceFinder: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.resources.ResourceFinder.ResourceFinder: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.resources.ResourceFinder.ResourceFinder: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.resources.finder_for_path: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.compat.fsdecode: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib.compat.cache_from_source: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.compat.samefile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_file.process_line: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_file.parse_requirements: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.vcs.VersionControl.VersionControl: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.lockfile._SharedBase._SharedBase: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.lockfile.LockBase.LockBase: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.lockfile.LockBase.LockBase: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_install._strip_extras: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_install.InstallRequirement.InstallRequirement: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_install.InstallRequirement.InstallRequirement: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_install.InstallRequirement.InstallRequirement: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_install.InstallRequirement.InstallRequirement: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.req.req_install.InstallRequirement.InstallRequirement: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.unzip_file: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.call_subprocess: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.ensure_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.untar_file: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.unpack_file: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.renames: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.renames: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.backup_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.splitext: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.file_contents: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.is_installable_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.is_local: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.display_path: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.display_path: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.read_text_file: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip.utils.normalize_path: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.user_config_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.user_cache_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.site_config_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.site_config_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.AppDirs.AppDirs: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.AppDirs.AppDirs: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.AppDirs.AppDirs: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.AppDirs.AppDirs: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.AppDirs.AppDirs: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.user_log_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.user_data_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.site_data_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.appdirs.site_data_dir: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.file_ns_handler: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources._is_unpacked_egg: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources._normalize_cached: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.PathMetadata.PathMetadata: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.find_distributions: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.MemoizedZipManifests.MemoizedZipManifests: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources._bypass_ensure_directory: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.Distribution.Distribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ZipManifests.ZipManifests: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ZipManifests.ZipManifests: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.WorkingSet.WorkingSet: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.WorkingSet.WorkingSet: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.FileMetadata.FileMetadata: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.FileMetadata.FileMetadata: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.find_eggs_in_zip: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.DefaultProvider.DefaultProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.get_default_cache: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ZipProvider.ZipProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ZipProvider.ZipProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ZipProvider.ZipProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ZipProvider.ZipProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ZipProvider.ZipProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ZipProvider.ZipProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ZipProvider.ZipProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ResourceManager.ResourceManager: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.ResourceManager.ResourceManager: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.NullProvider.NullProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.NullProvider.NullProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.NullProvider.NullProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.NullProvider.NullProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.NullProvider.NullProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.NullProvider.NullProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.NullProvider.NullProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.NullProvider.NullProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.NullProvider.NullProvider: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.pkg_resources.normalize_path: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.models.PreparedRequest.PreparedRequest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.models.PreparedRequest.PreparedRequest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.models.PreparedRequest.PreparedRequest: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.models.Request.Request: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.requests.models.RequestEncodingMixin.RequestEncodingMixin: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distro.LinuxDistribution.LinuxDistribution: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.sysconfig._parse_makefile: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.sysconfig._safe_realpath: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.sysconfig._safe_realpath: Unknown has no name
+2017-09-27T00:06:47: [ERROR] pip._vendor.distlib._backport.sysconfig._PROJECT_BASE: Unknown has no name
+2017-09-27T00:06:47: End of group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pip"
+2017-09-27T00:06:47: Start group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql" with 20 files
+2017-09-27T00:06:48: Parsing complete
+2017-09-27T00:06:48: Analyzing "pymysql.tests.base" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\base.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_basic" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_basic.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_connection" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_connection.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_converters" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_converters.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_cursor" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_cursor.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_DictCursor" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_DictCursor.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_err" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_err.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_issues" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_issues.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_load_local" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_load_local.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_nextset" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_nextset.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_optionfile" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_optionfile.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.test_SSCursor" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\test_SSCursor.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\__init__.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.thirdparty" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\thirdparty\__init__.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.thirdparty.test_MySQLdb.capabilities" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\capabilities.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.thirdparty.test_MySQLdb.dbapi20" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\dbapi20.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.thirdparty.test_MySQLdb.test_MySQLdb_capabilities" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\test_MySQLdb_capabilities.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.thirdparty.test_MySQLdb.test_MySQLdb_dbapi20" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\test_MySQLdb_dbapi20.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.thirdparty.test_MySQLdb.test_MySQLdb_nonstandard" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\test_MySQLdb_nonstandard.py")
+2017-09-27T00:06:48: Analyzing "pymysql.tests.thirdparty.test_MySQLdb" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\__init__.py")
+2017-09-27T00:06:48: Starting analysis of 20 modules
+2017-09-27T00:06:49: Analysis complete
+2017-09-27T00:06:49: Saving group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql"
+2017-09-27T00:06:49: End of group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\pymysql"
+2017-09-27T00:06:49: Start group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools" with 44 files
+2017-09-27T00:06:50: Parsing complete
+2017-09-27T00:06:50: Analyzing "setuptools.archive_util" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\archive_util.py")
+2017-09-27T00:06:50: Analyzing "setuptools.depends" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\depends.py")
+2017-09-27T00:06:50: Analyzing "setuptools.dist" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\dist.py")
+2017-09-27T00:06:50: Analyzing "setuptools.extension" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\extension.py")
+2017-09-27T00:06:50: Analyzing "setuptools.glob" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\glob.py")
+2017-09-27T00:06:50: Analyzing "setuptools.launch" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\launch.py")
+2017-09-27T00:06:50: Analyzing "setuptools.lib2to3_ex" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\lib2to3_ex.py")
+2017-09-27T00:06:50: Analyzing "setuptools.monkey" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\monkey.py")
+2017-09-27T00:06:50: Analyzing "setuptools.msvc" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\msvc.py")
+2017-09-27T00:06:50: Analyzing "setuptools.namespaces" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\namespaces.py")
+2017-09-27T00:06:50: Analyzing "setuptools.package_index" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\package_index.py")
+2017-09-27T00:06:50: Analyzing "setuptools.py26compat" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\py26compat.py")
+2017-09-27T00:06:50: Analyzing "setuptools.py27compat" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\py27compat.py")
+2017-09-27T00:06:50: Analyzing "setuptools.py31compat" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\py31compat.py")
+2017-09-27T00:06:50: Analyzing "setuptools.sandbox" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\sandbox.py")
+2017-09-27T00:06:50: Analyzing "setuptools.ssl_support" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\ssl_support.py")
+2017-09-27T00:06:50: Analyzing "setuptools.unicode_utils" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\unicode_utils.py")
+2017-09-27T00:06:50: Analyzing "setuptools.version" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\version.py")
+2017-09-27T00:06:50: Analyzing "setuptools.windows_support" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\windows_support.py")
+2017-09-27T00:06:50: Analyzing "setuptools" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\__init__.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.alias" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\alias.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.bdist_egg" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\bdist_egg.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.bdist_rpm" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\bdist_rpm.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.bdist_wininst" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\bdist_wininst.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.build_ext" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\build_ext.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.build_py" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\build_py.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.develop" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\develop.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.easy_install" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\easy_install.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.egg_info" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\egg_info.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.install" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\install.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.install_egg_info" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\install_egg_info.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.install_lib" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\install_lib.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.install_scripts" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\install_scripts.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.py36compat" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\py36compat.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.register" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\register.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.rotate" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\rotate.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.saveopts" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\saveopts.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.sdist" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\sdist.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.setopt" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\setopt.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.test" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\test.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.upload" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\upload.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command.upload_docs" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\upload_docs.py")
+2017-09-27T00:06:50: Analyzing "setuptools.command" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\command\__init__.py")
+2017-09-27T00:06:50: Analyzing "setuptools.extern" ("d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools\extern\__init__.py")
+2017-09-27T00:06:50: Starting analysis of 44 modules
+2017-09-27T00:06:53: Analysis complete
+2017-09-27T00:06:53: Saving group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools"
+2017-09-27T00:06:53: [ERROR] setuptools.command.bdist_egg.analyze_egg: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.bdist_egg.scan_module: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.bdist_egg.walk_egg: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.bdist_egg.bdist_egg.bdist_egg: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.bdist_egg.write_stub: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.bdist_egg.make_zipfile: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.bdist_egg.make_zipfile: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.bdist_egg.make_zipfile: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.bdist_egg.write_safety_flag: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.build_py.assert_relative: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.build_py.assert_relative: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.build_py.build_py.build_py: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.build_py.build_py.build_py: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.build_py.build_py.build_py: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.build_py.build_py.build_py: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.develop.develop.develop: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.sandbox._execfile: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.sandbox.run_setup: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.install_egg_info.install_egg_info.install_egg_info: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.archive_util.unpack_archive: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.archive_util.unpack_zipfile: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.archive_util.default_filter: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.archive_util.default_filter: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.archive_util.unpack_directory: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.archive_util.unpack_tarfile: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.PackageIndex.PackageIndex: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.distros_for_filename: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.package_index.interpret_distro_name: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.egg_info.FileList.FileList: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.egg_info.egg_info.egg_info: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.egg_info.egg_info.egg_info: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.egg_info.translate_pattern: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.SystemInfo.SystemInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.SystemInfo.SystemInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.SystemInfo.SystemInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.SystemInfo.SystemInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.SystemInfo.SystemInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.RegistryInfo.RegistryInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.RegistryInfo.RegistryInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.RegistryInfo.RegistryInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.RegistryInfo.RegistryInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.RegistryInfo.RegistryInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.RegistryInfo.RegistryInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.EnvironmentInfo.EnvironmentInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.EnvironmentInfo.EnvironmentInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.EnvironmentInfo.EnvironmentInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.msvc.EnvironmentInfo.EnvironmentInfo: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.dist.Distribution.Distribution: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.windows_support.hide_file: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.PackageFinder.PackageFinder: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.upload_docs.upload_docs.upload_docs: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.upload_docs.upload_docs.upload_docs: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.glob.glob: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.glob._iglob: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.glob.iglob: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.glob._rlistdir: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.glob._isrecursive: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.glob.has_magic: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.glob.glob2: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.glob.glob0: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.glob.glob1: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.PthDistributions.PthDistributions: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.chmod: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.easy_install.easy_install: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.samefile: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.samefile: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.easy_install.update_dist_caches: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.namespaces.Installer.Installer: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.setopt.edit_config: Unknown has no name
+2017-09-27T00:06:53: [ERROR] setuptools.command.setopt.config_file: Unknown has no name
+2017-09-27T00:06:53: End of group "d:\workspace\visual studio 2017\projects\djangoshop\djangoshop\env-dgweb\lib\site-packages\setuptools"
+2017-09-27T00:06:55: Deleting 0 files
+
+2017-09-28T12:46:55: Start analysis
+2017-09-28T12:46:55: IncludeModulesFromModulePath = win32com
+2017-09-28T12:46:57: Deleting 0 files
+
+2017-09-28T23:42:50: Start analysis
+2017-09-28T23:42:50: IncludeModulesFromModulePath = win32com
+2017-09-28T23:42:52: Deleting 0 files

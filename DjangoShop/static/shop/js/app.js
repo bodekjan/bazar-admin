@@ -163,3 +163,7 @@ function csrfSafeMethod(method) {
     // these HTTP methods do not require CSRF protection
     return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
 }
+
+// 解决编码导致的多出一个字符串
+// var a = document.body.innerHTML;
+// document.body.innerHTML = a.replace(/\ufeff/g, ''); 

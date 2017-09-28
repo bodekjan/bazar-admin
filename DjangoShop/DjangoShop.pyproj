@@ -1084,6 +1084,7 @@
     <None Include="FolderProfile7.pubxml" />
     <None Include="FolderProfile8.pubxml" />
     <None Include="FolderProfile9.pubxml" />
+    <None Include="FolderProfile10.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

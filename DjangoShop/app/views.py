@@ -790,7 +790,7 @@ def sysCommand(request):
         os.system('net start apache2.4')
         name_dict = {'status': 'success', 'msg': 'ئاپاچى قايتا قوزغىلىۋاتىدۇ، ھىچنىمىگە چېقىلماي بەش مىنۇت ساقلاپ ئاندىن مەشخۇلات قىلىڭ'}
     if(command == 'win'):
-        os.system('shutdown.exe -r -s 10')
+        os.system('shutdown.exe -r -t 10')
         name_dict = {'status': 'success', 'msg': 'مۇلازىمىر قايتا قوزغىلىشقا باشلىدى، ھىچنىمىگە چېقىلماي 5 مىنۇت ساقلاپ ئاندىن مەشفۇلات قىلىڭ'}
     return JsonResponse(name_dict)
 

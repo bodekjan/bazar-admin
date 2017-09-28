@@ -17,6 +17,7 @@ from rest_framework.decorators import parser_classes
 from rest_framework.response import Response
 from rest_framework.authtoken.models import Token
 from django.db.models.aggregates import Count
+import os
 
 def main(request):
     """Renders the home page."""
@@ -771,6 +772,30 @@ def goodAlert(request):
         }
     )
 
+# simple ajax ( system command )
+def sysCommand(request):
+    """Renders the about page."""
+    #assert isinstance(request, HttpRequest)
+    is_login = request.session.get('login',False)
+    if is_login==False:
+        return redirect('/login')
+    name_dict = {'status': 'error', 'msg': 'قۇرۇق'}
+    command = request.POST.get('command','null') 
+    if(command == 'mysql'):
+        os.system('net stop mysql')
+        os.system('net start mysql')
+        name_dict = {'status': 'success', 'msg': 'ساندان قايتا قوزغىلىۋاتىدۇ، ھىچنىمىگە چېقىلماي 5 مىنۇت ساقلاپ تۇرۇپ ئاندىن مەشخۇلات قىلىڭ'}
+    if(command == 'apache'):
+        os.system('net stop apache2.4')
+        os.system('net start apache2.4')
+        name_dict = {'status': 'success', 'msg': 'ئاپاچى قايتا قوزغىلىۋاتىدۇ، ھىچنىمىگە چېقىلماي بەش مىنۇت ساقلاپ ئاندىن مەشخۇلات قىلىڭ'}
+    if(command == 'win'):
+        os.system('shutdown.exe -r -s 10')
+        name_dict = {'status': 'success', 'msg': 'مۇلازىمىر قايتا قوزغىلىشقا باشلىدى، ھىچنىمىگە چېقىلماي 5 مىنۇت ساقلاپ ئاندىن مەشفۇلات قىلىڭ'}
+    return JsonResponse(name_dict)
+
+
+# api work zone
 
 @csrf_exempt
 @api_view(['POST'])
